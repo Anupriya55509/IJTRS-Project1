@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 5%;
+}
+.img{
+    width:92px;
+    height:43px;
+    margin-right: 110px; 
+    /* position: static; */
+    margin-top: 10px;
+}
+.lock b{
+    margin-bottom: 200px;
+}
+.border{
+    background-color: rgb(4, 4, 72);
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.link:hover{
+    background-color: white;
+    color:  rgb(4, 4, 72);
+    font-weight: bolder;
+}
+.link{
+    color: white;
+    margin: 20px;
+    display: block;
+    border: none;
+    text-decoration: none;
+}
+.slide img{
+    margin-top: 50px;
+    margin-left: 200px;
+    align-items: center;
+    height: 400px;
+}
+.marquee{
+    margin-top: 450px;
+    background-color: rgb(4, 4, 72) ;
+    color: white;
+    height: 13px;
+    width: 1000px;
+    margin-left: 250px;
+    padding: 10px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: bold;
+}
+.container{
+    color: #012D5F;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-weight:lighter;
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+.card{
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 5px;
+    padding: 20px 0px;
+    padding-left: 20px;
+    width:260px;
+    height: 220px;
+
+}
+.card h5{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 70px;
+}
+.new{
+    margin-left: 90px;
+
+}
+.card a h4{
+    margin-left: 70px;
+    text-decoration: none;
+}
+.text {
+    margin: auto;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.foot{
+    background-color: #343A40;
+    width:100%;
+}
+.footer {
+    margin-top:60px;
+    background-color: #343A40;
+    color:white;
+    height:280px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:50px;
+    padding-top:100px
+}
+.footer a{
+    color:#998f8f;
+    text-decoration:none;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.span{
+    color:blue;
+}
+.span:hover{
+    color:white;
+}
+.foot p{
+    color:white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.foot p span{
+    color:yellow;
+}
+.foot p span:hover{
+    text-decoration: underline;
+}
+
